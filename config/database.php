@@ -77,7 +77,7 @@ if ($docRoot !== '' && $projDir !== '' && strpos($projDir, $docRoot) === 0) {
 
 // Set Konfigurasi Berdasarkan Environment
 if ($_isLocal) {
-    define('DB_HOST', 'cp.bilhill.net');
+    define('DB_HOST', 'localhost');
     define('DB_PORT', 3306);
     define('DB_USER', 'root');
     define('DB_PASS', 'admin8511');
@@ -89,7 +89,7 @@ if ($_isLocal) {
     unset($_portStr);
 
 } else {
-    define('DB_HOST', 'cp.bilhill.net');
+    define('DB_HOST', 'localhost');
     define('DB_PORT', 3306);
     define('DB_USER', 'root');
     define('DB_PASS', 'admin8511');
