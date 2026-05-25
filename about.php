@@ -222,15 +222,7 @@ body {
         </p>
 
         <div class="contact-section">
-            <a href="mailto:mrkuncen89@gmail.com" class="contact-link">
-                <i class="bi bi-envelope"></i> mrkuncen89@gmail.com
-            </a>
-            <a href="<?= defined('LINK_WA') ? LINK_WA : 'https://wa.me/6287781743048' ?>" target="_blank" class="contact-link">
-                <i class="bi bi-whatsapp"></i> +62 877-8174-3048
-            </a>
-            <a href="<?= defined('LINK_TIKTOK') ? LINK_TIKTOK : 'https://www.tiktok.com/@mrkuncen' ?>" target="_blank" class="contact-link">
-                <i class="bi bi-tiktok"></i> @mrkuncen
-            </a>
+            
         </div>
 
         <div class="skills-tags">
